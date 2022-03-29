@@ -1,0 +1,54 @@
+.box {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 100px;
+    border:none;
+    background-color: gray;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(177, 177, 177, 0.576);
+    transition: 0.8s;
+}
+
+h1{
+    color: white;
+}
+
+.orange-btn{
+    background-color: rgb(253, 152, 0);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    
+}
+.orange-btn:hover{
+    background-color: rgb(232, 177, 38);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+
+}
+
+.wider-btn{
+    width: 110px;
+}
+
+.darker-btn{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    
+}
